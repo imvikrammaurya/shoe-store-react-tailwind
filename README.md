@@ -57,10 +57,10 @@ Follow these steps to run the project locally on your machine.
 1.  **Clone the repository**
 
     ```bash
-    git clone [https://github.com/imvikrammaurya/shoe-store-react-tailwind.git](https://github.com/imvikrammaurya/shoe-store-react-tailwind.git)
+    git clone https://github.com/imvikrammaurya/shoe-store-react-tailwind.git
     ```
 
-2.  **Navigate to the project folder**
+2.  **Navigate to the project folder (Your Folder)**
 
     ```bash
     cd tailwind-shoes
@@ -79,7 +79,7 @@ Follow these steps to run the project locally on your machine.
     ```
 
 5.  **Open your browser**
-    Visit `http://localhost:5173` to view the app.
+    Visit `http://localhost:3000` to view the app.
 
 ---
 
