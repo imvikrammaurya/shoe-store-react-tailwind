@@ -1,18 +1,107 @@
-# React + Vite
+# 👟 WebOrbs | Show Store | Created By - Vikram Maurya
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Demo](./src/assets/projectgif.gif)
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg?style=for-the-badge&logo=vercel)](https://shoe-store-react-tailwind.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/code-github-blue.svg?style=for-the-badge&logo=github)](https://github.com/imvikrammaurya/shoe-store-react-tailwind)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 About The Project
 
-## React Compiler
+Welcome to **WebOrbs Shoe Store**, a fully functional, modern e-commerce landing page built to demonstrate the power of **React** combined with the new **Tailwind CSS v4**.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+This project replicates a premium shopping experience for the Nike Air Max line. It focuses on high-performance UI, smooth animations, and a seamless user experience across all devices. It handles state management for the shopping cart and persists user preferences (like Dark Mode) using local storage.
 
-Note: This will impact Vite dev & build performances.
+### ✨ Key Features
 
-## Expanding the ESLint configuration
+- **🎨 Dynamic Theming:** Fully supported **Dark Mode** & Light Mode with persistent local storage.
+- **📱 100% Responsive:** A mobile-first approach ensuring the site looks perfect on phones, tablets, and desktops.
+- **🛒 Functional Cart:** Users can select sizes, adjust quantities, and add items to a dynamic shopping cart.
+- **✨ Custom Animations:** \* Floating shoe animation (`@keyframes float`)
+  - Wiggle effects on hover
+  - Smooth fade-in transitions on page load
+- **⚡ Modern Tech Stack:** Built with Vite for lightning-fast performance.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+|                 Light Mode                 |                Dark Mode                 |                  Cart Demo                   |
+| :----------------------------------------: | :--------------------------------------: | :------------------------------------------: |
+| ![Light Mode](./src/assets/light-mode.png) | ![Dark Mode](./src/assets/dark-mode.png) | ![Cart Demo](./src/assets/darkmode-cart.png) |
+
+## 🛠️ Tech Stack
+
+This project was built using the latest frontend technologies:
+
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
+- **Utilities:** `tailwind-merge` (for class conflict resolution)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine.
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm
+
+### Installation
+
+1.  **Clone the repository**
+
+    ```bash
+    git clone [https://github.com/imvikrammaurya/shoe-store-react-tailwind.git](https://github.com/imvikrammaurya/shoe-store-react-tailwind.git)
+    ```
+
+2.  **Navigate to the project folder**
+
+    ```bash
+    cd tailwind-shoes
+    ```
+
+3.  **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Run the development server**
+
+    ```bash
+    npm run dev
+    ```
+
+5.  **Open your browser**
+    Visit `http://localhost:5173` to view the app.
+
+---
+
+## 🧠 What I Learned
+
+This project was a deep dive into modern frontend styling and logic. Key takeaways include:
+
+- **Tailwind v4 Configuration:** Learned how to use the new `@theme` and `@variant` directives in CSS to create custom animations and handle dark mode without a traditional `tailwind.config.js`.
+- **Complex State Management:** Managing the state of the Shopping Cart (adding items, updating quantities) and passing data between siblings using Props and State lifting.
+- **Component Reusability:** Created modular components like `Card`, `Select`, and `Nav` to keep the codebase clean and maintainable.
+- **CSS Animations:** mastered `@keyframes` within Tailwind to create engaging "wiggle" and "float" effects that enhance user engagement.
+
+---
+
+## 📬 Contact
+
+**Vikram Maurya** _Brand: WebOrbs_
+
+- GitHub: [@imvikrammaurya](https://github.com/imvikrammaurya)
+- Project Link: [https://github.com/imvikrammaurya/shoe-store-react-tailwind](https://github.com/imvikrammaurya/shoe-store-react-tailwind)
+- Project Live Link: [WebOrbs Shoe Store](https://shoe-store-react-tailwind.vercel.app/)
+
+---
+
+You can use it without worry, anywhere you want to. Just don’t forget to follow me.
